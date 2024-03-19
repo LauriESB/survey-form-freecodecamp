@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+#title, #description{
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+
+form {
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+label, input {
+    display: block;
+}
+
+
+#op1, #op2, #op3 {
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+}
+
+.reccomend, .main-data, .user-role,.fav-features, .checkboxes {
+    padding-top: 0.3rem;
+    margin-top: 0.8rem;
+    
+}
+
+.checkboxes input {
+    display: inline-block;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#name-label, #email-label, #number-label,
+#dropdown, #dropdown2 {
+    width: 26vw;
+    height: 2.5vh;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+label {
+    margin-bottom: 0.8px;
+}
+
+.user-role #dropdown,
+.fav-feature #dropdown2 {
+    margin-top: 0.8rem;
+    width: 26.5vw;
+    height: 3.4vh;
+}
+#check {
+    font-size: 12px;
+    padding-left: 3px;
+    display: inline-block;
+}
+
+#options {
+    display: inline-block;
+}
+
+#age-op {
+    font-size: 12px;
+    margin-right: 0.5%;
+    display: inline-block;
+}
+
+textarea {
+    width: 26.3vw;
+    margin-bottom: 2vh;
+}
+
+#comments {
+    margin-bottom: 0.8vh;
+}
+
+#submit-btn {
+    margin-top: 2%;
+    margin: 0 auto;
+    width: 5vw;
+    height: 2vw;
+}
