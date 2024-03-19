@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cagliostro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cagliostro&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Survey Form</title>
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    <form id="survey-form" action="" method="post">
+    <form id="survey-form" action="">
         
         <!-- MAIN DATA -->
         <div class="main-data">
-            <label for="name-label">Name: <input id="name-label" type="text" placeholder="Enter your name" required/></label>
-            <label for="email-label">Email: <input id="email-label" type="email" placeholder="Enter your Email" required/></label>
-            <label for="number-label">Age <p id="age-op">(optional)</p><input id="number-label" type="number" placeholder="Type your age" min="8" max="120"/></label>
+            <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+            <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required/></label>
+            <label for="number" id="number-label" >Age <p id="age-op">(optional)</p><input id="number" type="number" placeholder="Type your age" min="8" max="120"/></label>
         </div>
         
         <!-- FIRST DROPDROWN -->
         <div class="user-role">
             <p>Which option best describes your current role?</p>
             <select name="dropdown-select1" id="dropdown"> 
-                <option value="" unchecked>Select current role</option>
+                <option value="" >Select current role</option>
                 <option value="1">Student</option>
                 <option value="2">Full Time Job</option>
                 <option value="3">Other</option>
@@ -33,9 +37,9 @@
         <!-- RADIOS -->
         <p>Would your recommend freeCodeCamp to a friend?</p>
         <div class="reccomend">
-            <label for="op1"><input id="op1" type="radio" name="rec-options"/>Yes, I would</label>
-            <label for="op2"><input id="op2" type="radio" name="rec-options"/>No, I would not</label>
-            <label for="op3"><input id="op3" type="radio" name="rec-options"/>I am not sure yet</label>
+            <label for="op1"><input id="op1" value="yes" type="radio" name="rec-options"/>Yes, I would</label>
+            <label for="op2"><input id="op2" value="no" type="radio" name="rec-options"/>No, I would not</label>
+            <label for="op3"><input id="op3" value="maybe" type="radio" name="rec-options"/>I am not sure yet</label>
         </div>
         
         <!-- SECOND DROPDOWN -->
@@ -54,7 +58,7 @@
         <!-- CHECKBOXES -->
         <p id="options">What would you like to see improved? <p id="check">(Check all that apply)</p></p>
         <div class="checkboxes">
-            <label for="front"><input id="front" value="" type="checkbox" />Front-end Projects</label>
+            <label for="front"><input id="front" value="0" type="checkbox" />Front-end Projects</label>
             <label for="back"><input id="back" value="1" type="checkbox" />Back-end Projects</label>
             <label for="datavisu"><input id="datavisu" value="2" type="checkbox" />Data Visualization</label>
             <label for="challenges"><input id="challenges" value="3" type="checkbox" />Challenges</label>
@@ -72,7 +76,7 @@
 
         </textarea>
 
-        <input type="submit" value="Submit" id="submit-btn"/>
+        <button id="submit" type="submit" value="Submit">Submit</button>
     </form>
 </body>
 </html>
