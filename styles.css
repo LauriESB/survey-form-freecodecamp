@@ -1,31 +1,65 @@
 * {
-    margin: 0;
+    margin: 0 auto;
 }
+
 
 #title, #description{
     text-align: center;
 }
 
 #title {
-    font-size: 40px;
-    font-family: "Cagliostro", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 45px;
+    padding-top: 3%;
+}
+
+#description {
+    margin-bottom: 2rem;
+    font-size: 20px;
 }
 
 body {
+    background-image: url(images/bg-color.PNG);
     width: 100%;
-    height: 100vh;
-    padding-top: 2rem;
+    padding: 1rem 0 1rem 0;
+    
 }
 
+.border {
+    
+    width: 40%;
+    height: 80%;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-form {
-    max-width: 500px;
+input, #dropdown, #dropdown2{
+    font-size: 20px; 
+}
+
+#survey-form {
+    max-width: 900px;
     min-width: 500px;
-    margin: 0 auto;
-    padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Red Hat Display", sans-serif;
+    border-radius: 20px;
+}
+
+.main-data label, .main-data input {
+    display: inline-block;
+}
+#email {
+    margin-left: 0.4rem;
+}
+
+#number {
+    margin-left: 1.3rem;
 }
 
 label, input {
@@ -39,10 +73,19 @@ label, input {
     display: inline-block;
 }
 
-.reccomend, .main-data, .user-role,.fav-features, .checkboxes {
-    padding-top: 0.3rem;
-    margin-top: 0.8rem;
-    
+.main-data, .user-role, .reccomend, .fav-feature, .checkboxes{
+    margin-bottom: 2rem; 
+    padding-left: 5rem;
+}
+
+
+#comments{
+    padding-left: 5rem;
+}
+
+
+.reccomend p {
+    margin-bottom: 0.8rem;
 }
 
 .checkboxes input {
@@ -51,12 +94,21 @@ label, input {
     margin-bottom: 0.8rem;
 }
 
+#name, #email, #number {
+    width: 23.6vw;
+}
+
+#dropdown, #dropdown2 {
+    width: 27.9vw;
+}
 #name, #email, #number,
 #dropdown, #dropdown2 {
-    width: 26vw;
-    height: 2.5vh;
+    height: 3.5vh;
     margin-right: 0.8rem;
     margin-bottom: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(223, 230, 252);
+    border: none;
 }
 
 label {
@@ -66,28 +118,38 @@ label {
 .user-role #dropdown,
 .fav-feature #dropdown2 {
     margin-top: 0.8rem;
-    width: 26.5vw;
     height: 3.4vh;
 }
 #check {
-    font-size: 12px;
+    font-size: 15px;
     padding-left: 3px;
     display: inline-block;
 }
 
 #options {
     display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+option{
+    font-size: 15px;
 }
 
 #age-op {
-    font-size: 12px;
+    font-size: 15px;
     margin-right: 0.5%;
     display: inline-block;
 }
 
 textarea {
-    width: 26.3vw;
+    margin-left: 5rem;
+    width: 27.8vw;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgb(223, 230, 252);
+    border: none;
+    font-size: 20px;
+    
 }
 
 #comments {
@@ -95,11 +157,15 @@ textarea {
 }
 
 #submit {
-    margin-top: 2%;
-    margin: 0 auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    display: block;
     width: 5vw;
     height: 2vw;
-    border-color: white;    
+    background-color: rgb(223, 230, 252);
+    border: none;
+    font-size: 20px;  
+    border-radius: 10px; 
 }
 
 
