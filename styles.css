@@ -22,7 +22,7 @@
 }
 
 body {
-    background-image: url(images/bg-color.PNG);
+    background-image: url(images/blue_mist.png);
     width: 100%;
     padding: 1rem 0 1rem 0;
     
@@ -33,9 +33,9 @@ body {
     width: 40%;
     height: 80%;
     border-color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(29, 93, 153, 0.7);
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 9px;
 }
 
 input, #dropdown, #dropdown2{
@@ -160,12 +160,14 @@ textarea {
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     display: block;
-    width: 5vw;
-    height: 2vw;
-    background-color: rgb(223, 230, 252);
+    width: 7vw;
+    height: 4vw;
+    background-color: #5684ac;
     border: none;
     font-size: 20px;  
     border-radius: 10px; 
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 }
 
 
