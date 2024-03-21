@@ -6,7 +6,6 @@
 
 <br>
 <br>
-<br>
 
 This is a repository made to track the result of the first required project of FreeCodeCamp Responsive Web Design course.
 
