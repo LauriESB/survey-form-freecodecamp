@@ -7,7 +7,7 @@
 <br>
 <br>
 
-This is a repository made to track the result of the first required project of FreeCodeCamp Responsive Web Design course.
+This is a repository made to upload my result of the first required project of FreeCodeCamp Responsive Web Design course.
 
 
 ## Goal
@@ -23,3 +23,7 @@ This first certification project requires completion of 5 initial courses. The o
   ![Project's screenshot](images/projects-screenshot.png)
 
 </details>
+
+<div align="center">
+ <img align="center" src="https://em-content.zobj.net/source/microsoft/309/ninja-cat_1f431-200d-1f464.png" alt="NetBeans Logo" width="30" height="auto">
+</div>
